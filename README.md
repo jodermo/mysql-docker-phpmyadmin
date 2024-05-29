@@ -3,7 +3,9 @@ Simple Docker Compose Configuration for phpMyAdmin (MySQL admin tool)
 
 **you need docker and docker compose on your machine**
 
-- Add your credetials to the docker compose file ([docker-compose.yml](./docker-compose.yml)): ```yml
+1. Add your credetials to the docker compose file ([docker-compose.yml](./docker-compose.yml)):
+ 
+```yml
 version: '3.7'
 
 services:
@@ -19,4 +21,4 @@ services:
       - "8080:80"
 ```
 
-- Run: `docker-compose up --build`
+2. Run: `docker-compose up --build`
